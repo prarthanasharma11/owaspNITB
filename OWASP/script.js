@@ -15,14 +15,17 @@ setTimeout(() => {
 }, 5000);
 
 
-const imgs = [
-  "/OWASP/content./e3.jpg",
-  "/OWASP/content./e2.JPG",
-  "/OWASP/content./e1.png"
-];
+document.addEventListener("DOMContentLoaded", () => {
+  const imgs = [
+    "./content/e3.jpg",
+    "./content/e2.JPG",
+    "./content/e1.png"
+  ];
+}
+);
 
 let i = 0;
-const boxes = document.querySelectorAll(".pics"); /*e1, e2, e3*/
+const boxes = document.querySelectorAll(".pics"); 
 
 function changeImages() {
   boxes.forEach((box, index) => {
