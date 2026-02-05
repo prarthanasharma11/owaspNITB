@@ -1,0 +1,251 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Honk:MORF@15&family=Jersey+15&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk:MORF@15&family=Jersey+15&family=Major+Mono+Display&family=Rubik+Glitch&family=Rubik+Lines&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk:MORF@15&family=Italiana&family=Jersey+15&family=Major+Mono+Display&family=Rubik+Glitch&family=Rubik+Lines&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk:MORF@15&family=Italiana&family=Jersey+15&family=Major+Mono+Display&family=Rubik+Glitch&family=Rubik+Lines&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Honk:MORF@15&family=Italiana&family=Jersey+15&family=Major+Mono+Display&family=Rubik+Glitch&family=Rubik+Lines&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Honk:MORF@15&family=Italiana&family=Jersey+15&family=Major+Mono+Display&family=Oranienbaum&family=Rubik+Glitch&family=Rubik+Lines&family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+  margin: 0;
+  overflow-y: auto; 
+}
+
+.OWASP{
+  display: flex;
+  flex-direction: column;
+  height: 250vh;
+  position: relative;
+  z-index: 1;
+  background-color: black;
+}
+
+.osp{
+  position: relative;
+  z-index: 2;
+  font-family: "Rubik Glitch", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  color:rgb(34, 225, 34);
+  line-height: 1.1px;
+  text-shadow: 0 0 30px rgba(19, 3, 58, 0.699);
+}
+
+.csec{
+    margin-top:13rem;
+  height: 70px;
+    font-family: "Major Mono Display", monospace;
+
+  font-weight: 400;
+  font-style: normal;
+  color:  #0939f9;
+  text-shadow: 0 0 30px rgba(172, 175, 170, 0.847);
+}
+.mn{
+    height: 200px;
+    /* font-family: "Rubik Lines", system-ui; */
+    font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 190px;
+
+}
+.con{
+    height: 90px;
+      font-family: "Major Mono Display", monospace;
+    margin-top:1rem;
+    font-size: 80px;
+    font-weight: 200;
+}
+
+#front{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  
+}
+#entry video{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black; /* Fills gaps with black bars */
+    object-fit: cover;
+    z-index: 3;
+    pointer-events: none;
+    transition-property: display;
+    transition-duration:2s;
+    transition-timing-function: ease-in-out;
+   
+}
+
+#front video{
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black; /* Fills gaps with black bars */
+    object-fit: cover;
+   
+}
+
+.navbar{
+    height: 9vh;
+    width: 70vw;
+    border-radius: 10px;
+    background-color: rgba(46, 46, 46, 0.279);
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-content: center;
+    align-items: center;
+    color:white;
+    position:absolute;
+    top:15px;
+    gap:10px;
+    font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  pointer-events: all;
+}
+
+#logo{
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    align-self: center;
+    margin-left: .5rem;
+}
+
+#name{
+    margin-right:17rem;
+}
+
+.info{
+    width:22rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: right;
+}
+
+.border:hover{
+   text-decoration-line: underline;
+   color: white;
+}
+.view{
+    position: relative;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.pevents {
+  margin-top: 6rem;
+  font-family: "Major Mono Display", monospace;
+  font-size: 2rem;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+}
+.more{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    z-index: 5;
+}
+
+.pics {
+  position: absolute;
+  right:20vw; 
+  z-index: 2;
+  height: 16rem ;
+  width: 20rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  transition: background-image 0.5s ease-in, opacity 0.5s ease;
+  box-shadow: 0 0 15px rgba(37, 37, 37, 0.769);
+}
+.pics:hover{
+    transform:scale(1.02);
+}
+.einfo{
+  height: 10rem;
+  width: 20rem;
+  position: absolute;
+  top: 5rem;
+  z-index: 8;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Oranienbaum", serif;
+}
+.ei{
+  z-index: 8;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Oranienbaum", serif;
+  font-size: 1.5rem;
+  margin-top: .05rem;
+  margin-bottom: .05rem;
+}
+.ei1{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.ei4{
+    margin-top: 2rem;
+    color: #fffef7;
+    border:solid 2px #0005158e;
+    background-color: #09ff2e8c;
+    border-radius: 10rem;
+}
+.msn{
+  height: 25rem;
+  width: 65vw;
+  position: absolute;
+  top: 27rem;
+  z-index: 8;
+  display: block;
+  background-color: rgba(44, 0, 120, 0.422);
+  align-content: center;
+  border-radius: 25px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.537);
+}
+.ei5{
+      font-family: "Major Mono Display", monospace;
+      margin-top:8rem;
+      font-size: 2.4rem;
+      font-weight: 400;
+}
+
+.eii{
+  font-size: 2.5rem;
+  margin-top: 20px;
+  font-weight: 900;
+}

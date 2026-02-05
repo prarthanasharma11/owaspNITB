@@ -1,0 +1,32 @@
+#Q1{
+    height: 50px;
+    width: 1vw px;
+    background-color: navy;
+    color: white;
+    display:flex;
+    justify-content: space-evenly;
+    margin:15px;
+}
+
+#Q2{
+    height: 400px;
+    width:  400px;
+    border: 2px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#b1{
+    height: 200px;
+    width:  200px;       display:flex;
+    justify-content: center;
+    border: 2px solid black;   align-items: center;
+}
+#b2{
+    height: 50px;
+    width:  50px;
+    display:flex;
+    justify-content: center;
+    border: 2px solid black;   align-items: center;
+}

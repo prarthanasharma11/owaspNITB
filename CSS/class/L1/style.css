@@ -1,0 +1,30 @@
+*{
+    color:rgb(28, 108, 111);
+}
+button{
+    color:crimson;
+    background-color: rgb(64, 133, 11);
+}
+body{
+    background-color: #00ffff;
+}
+#one{
+    color:rgb(105, 65, 12);
+     text-align:end;
+     text-decoration: overline;
+}
+.greet{
+    color:palevioletred;
+}
+#fv{
+    text-align: center;
+    text-decoration: line-through;
+}
+#wn{
+    text-decoration: blue wavy underline;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color:blueviolet
+}

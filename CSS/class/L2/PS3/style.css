@@ -1,0 +1,15 @@
+div{
+    background-color: #0f1111;
+    color:white;
+    height:60px;
+}
+a{
+    margin-right: 200px;
+}
+button{
+    background-color: chocolate;
+}
+#app{
+    color:chocolate;
+    font-size: 25px;
+}

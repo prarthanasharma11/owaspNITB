@@ -1,0 +1,30 @@
+/* div{
+    height:100px;
+    width:100px;
+    background-color:pink;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: red;
+    border-radius:15px;
+    padding:21px 22px 23px 24px ;
+    margin:20px 30px 40px 50px;
+} */
+ #b1{
+        height:100px; 
+        width:100px;
+        display:inline;
+        background-color:green;
+        font-size: 25px;
+    }
+#b2{
+     height:100px; 
+     width:100px;
+        display:none;
+        background-color:rgba(40, 128, 163);
+    }
+#b3{
+     height:100px;
+     width:100px;
+        display:inline-block;
+        background-color:green;
+     }

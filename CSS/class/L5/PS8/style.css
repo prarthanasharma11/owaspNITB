@@ -1,0 +1,13 @@
+div{
+    height: 100px;
+    width:100px;
+    border:20px solid #e0b1cb;
+    border-bottom:20px solid #5e548e;
+    border-radius: 50%;
+    animation:loader 2s linear 0s infinite normal;
+    }
+
+    @keyframes loader{
+        from{transform:rotate(0deg);}
+        to{transform:rotate(360deg);}
+    }

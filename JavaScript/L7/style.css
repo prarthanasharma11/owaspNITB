@@ -1,0 +1,15 @@
+div{
+    height:280px;
+    width:100px;
+    color:black;
+    background-color: darkblue;
+}
+
+.new{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+}
+.newClass{
+    color: darkmagenta;
+    background-color: gold;
+}

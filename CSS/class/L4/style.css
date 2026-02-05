@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+}
+div{
+     height:100px;
+     width:100px;
+    border:2px solid black;
+    display: inline-block;
+}
+#container{
+    height:300px;
+    width:450px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+
+}
+#b1{
+    background-color: burlywood;
+    flex-shrink: 10;
+}
+#b2{
+    background-color: rgb(167, 205, 33);  
+}
+#b3{
+    background-color: rgb(85, 110, 108);
+}
+#b4{
+    background-color: rgb(163, 41, 203);
+}
+#b5{
+    background-color:darkcyan;
+}
