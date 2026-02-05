@@ -16,9 +16,9 @@ setTimeout(() => {
 
 
 const imgs = [
-  "/OWASP/content/e3.jpg",
-  "/OWASP/content/e2.JPG",
-  "/OWASP/content/e1.png"
+  "/OWASP/content./e3.jpg",
+  "/OWASP/content./e2.JPG",
+  "/OWASP/content./e1.png"
 ];
 
 let i = 0;
